@@ -1,0 +1,53 @@
+/* Add this CSS in a separate CSS file or include it in your component */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .edit{
+    width: 200px;
+   margin-left: 0px;
+   margin-top: 13px;
+  }
+  .list{
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-around; /* Adjust as needed */
+    padding: 20px;
+  }
+  li {
+    flex: 1; /* Makes the items flexible, taking up equal space */
+  min-width: 300px; /* Minimum width for each item */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for a smooth effect */
+  }
+  
+  li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  
+  strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Loading and error styles */
+  p.loading, p.error {
+    font-weight: bold;
+    color: #ff6347; /* Tomato color */
+  }
+  
